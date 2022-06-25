@@ -2,6 +2,7 @@ body{
     background-image: url('images/background2.png');
     background-color: #ffffff;
     background-attachment:scroll;
+    background-repeat: no-repeat;
 }
 .center{
     display:block;
