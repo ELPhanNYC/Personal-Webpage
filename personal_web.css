@@ -12,8 +12,9 @@ body{
 div.header{
     display: inline-block;
     background-color: #346aa4;
-    width: 100%;
+    width:100%;
     min-height: auto;
+
 
 }
 
@@ -85,7 +86,6 @@ ul.nav {
 
 }
 li.nav {
-    float:left;
     display: inline-block;
 }
 a:link{
@@ -111,8 +111,8 @@ a.nav:visited{
     color:white;
 }
 a.nav:hover{
-    color:#0259b6;
+    color:#5ea0f2;
 }a.nav:active{
-    color:#0259b6;
+    color:#5ea0f2;
 }
 
