@@ -1,67 +1,80 @@
 body{
-    background-image: url('images/ny.jpg');
-    background-color: #8ca5bf;
+    background-image: url('images/background2.png');
+    background-color: #ffffff;
+    background-attachment:scroll;
 }
 .center{
     display:block;
     margin-left:auto;
     margin-right:auto;		
 }
-img.header{
-    border-width:0px;
-}
+
+h1 {
+    text-align: center;
+    font-family: "Trirong", serif;
+    color: #ffffff; 
+    font-size: 56px; 
+  }
+
 h2{
-    font: 50px Gill Sans;
-    color:#ffffff;
+    font-family: "Trirong", serif;
+    color:#000000;
     text-align:center;
 }
 img.frame{
-    border: 5px solid #0259b6;
+    border: 5px solid #346aa4;
 }
 
 #footer{
     width:100%;
-    bottom:0px;
+    float:left;
+    background-color: #3d4b63;
+    /*bottom:0px;
     left:0px;
     background-color:#3d4b63;
-    height:40px;
-    border-left:2px solid #3d4b63;
-    border-right:2px solid #3d4b63;
+    height:40px;*/
+    border-left:5px solid #3d4b63;
+    border-right:5px solid #3d4b63;
 }
+    
 #footer p{
-    font: 20px Gill Sans;
+    font-family: "Trirong", serif;
     color:#ffffff;
     text-align: center;
-    line-height:40px;
+    line-height:30px;
 }
 p.center_align{
-    font: 20px Gill Sans;
-    color:#ffffff;
-    background-color: #0259b6;
+    font-family: "Trirong", serif;
+    color:#000000;
     padding: 10px;
     text-align: center;   
 }
 p.left_align{
-    font: 20px Gill Sans;
-    color:#ffffff;
-    background-color: #0259b6;
+    font-family: "Trirong", serif;
+    color:#000000;
     padding: 10px;
     text-align: left;
 }
 ul{
-    background-color: #0259b6;
-    font: 20px Gill Sans;
-    color: #ffffff;
-    padding-top: 10px;
+    font-family: "Trirong", serif;
+    color: #000000;
+    padding-top: 0px;
     padding-bottom: 10px;
 }
+li{
+    font-family: "Trirong", serif;
+    color: #000000;
+}
 ul.nav {
-    background-color: #3d4b63;
+    font-family: "Trirong", serif;
+    background-color: #346aa4;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     color:#ffffff;
+    width: 100%;
+
 }
 li.nav {
     float:left;
@@ -80,10 +93,10 @@ a:active{
 }
 a.nav:link{
 display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
 }
 a.nav:visited{
     color:white;
