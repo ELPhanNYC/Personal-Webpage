@@ -1,5 +1,4 @@
 body{
-    background-image: url('images/background2.png');
     background-color: #ffffff;
     background-attachment:scroll;
     background-repeat: no-repeat;
@@ -43,7 +42,6 @@ img.frame{
     left:0px;
     background-color:#3d4b63;
     height:40px;*/
-    
 }
     
 #footer p{
