@@ -9,9 +9,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
 </head>
 <body>
-    <!--<a href='http://flamingtext.com/'>
-        <img src="images/new_header.png" class="header center" height = 75px alt="heading">
-    </a>-->
     <div class = "header"><h1>ETHAN PHAN</h1>
     <ul class = "nav">
         <li class = "nav"><a href="index.html" class = "nav">Home</a></li>
@@ -19,16 +16,39 @@
         <li class = "nav"><a href="exp.html" class = "nav">Experience</a></li>
         <li class = "nav"><a href="proj.html" class = "nav">Projects</a></li>
         <li class = "nav"><a href="about_me.html" class = "nav"> About Me </a></li>
+        <li class = "nav" style="float:right"><a href="https://github.com/ELPhanNYC" class = "nav"><img src = "images/github-cat.png" height = 16px></a></li>
+        <li class = "nav" style="float:right"><a href="https://www.linkedin.com/in/ethan-phan-381562203/" class = "nav"><img src = "images/linkedin-icon.png" height = 16px></a></li>
         <li class = "nav" style="float:right"><a href="images/Ethan Phan Resume (Summer 2022 Edit).pdf" class = "nav">Resume</a></li>
-        <li class = "nav" style="float:right"><a href="https://github.com/ELPhanNYC" class = "nav">GitHub</a></li>
-        <li class = "nav" style="float:right"><a href="https://www.linkedin.com/in/ethan-phan-381562203/" class = "nav">Linkedin</a></li>
       </ul>
     </div>
     <br>
     <div style = "min-height: 480px; max-height: auto;">
         <h2>Introduction</h2>
-
-        <img src="images/IMG_0443 3.jpg" height = 300px class = "center frame" alt = "potrait">
+        <div>
+            <div class = "slides fadel">
+                <img class = "frame center" src="images/IMG_0443 3.jpg" height = 300px alt = "potrait">
+            </div>
+            <div class = "slides fadel">
+                <img class = "frame center" src = "images/IMG_3069.JPG" height = 300px alt = "young_cs">
+            </div>
+        </div>
+        <script>
+            let index = 0;
+            slideshow();
+            function slideshow(){
+                let i;
+                let img = document.getElementsByClassName("slides");
+                for(i = 0; i < img.length;i++){
+                    img[i].style.display = "none";
+                }
+                index++;
+                if(index > img.length){
+                    index = 1;
+                }
+                img[index-1].style.display = "block";
+                setTimeout(slideshow,3500);
+            }
+        </script>
         <br>
         <p class = "left_align">Hi! My name is Ethan Phan, and I am a sophomore at the University at Buffalo. I am currently pursuing a Bachelor of Science degree in Computer Science!</p>
             <ul><li>A skilled problem-solver who is extremely intrigued by computing and technology and is seeking to develop and implement new computing systems and programs that are efficient in performing their tasks and are highly accessible as well as useful for the user.<br></li>
