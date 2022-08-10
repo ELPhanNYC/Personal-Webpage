@@ -388,8 +388,8 @@ h3{
   }
   
 @media (max-width: 767.98px) {
-.switch-show{
-    width: 200px;
+img.frame{
+    height: 200px;
 }
 .timeline::after {
       left: 90px;
