@@ -134,6 +134,20 @@ a.nav:hover{
 }a.nav:active{
     color:#5ea0f2;
 }
+a.exp:link{
+  color: white;
+
+}
+a.exp:visited{
+  color:white;
+}
+a.exp:active{
+  color:#5ea0f2;
+}
+a.exp:hover{
+  color:#5ea0f2;
+}
+
 img.center{
     display:block;
     margin-left:auto;
