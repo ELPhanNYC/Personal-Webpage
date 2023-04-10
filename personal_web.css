@@ -29,6 +29,7 @@ div.body{
     min-height: 480px; 
     max-height: auto;
     margin-top: 250px;
+    min-height: 100vh;
 }
 
 img.main{
@@ -57,6 +58,7 @@ img.frame{
     width:100%;
     float:left;
     background-color: #3d4b63;
+    margin-top: auto;
     /*bottom:0px;
     left:0px;
     background-color:#3d4b63;
